@@ -1,0 +1,132 @@
+/*
+  =======================
+         common css  
+  ======================= 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+/*
+  =======================
+         Header css  
+  ======================= 
+*/
+
+/*
+  =======================
+         Top Bar  
+  ======================= 
+*/
+#top-bar{
+    background: #1872b5;
+    height: 32px;
+}
+.top-content,.logo{
+    float: left;
+}
+.top-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    color: #e7e7e7;
+}
+.top-icon,.menu{
+    float: right;
+}
+.top-icon a{
+    line-height: 32px;
+    margin-left: 14px;
+    font-size: 14px;
+    color: #e7e7e7;
+    
+}
+.top-icon a:hover{
+    color: #353535;
+}
+
+/*
+  =======================
+         Menu Bar
+  ======================= 
+*/
+.menu-bar{
+    height: 80px;
+    background: #bdbdbd;
+}
+.logo{
+    /* background: teal; */
+    /* line-height: 80px; */
+    /* margin-top: auto; */
+    /* height: 40px; */
+    /* width: 80px; */
+}
+.logo img{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* height: 40px; */
+    /* width: 80px; */
+    /* display: block; */
+    /* line-height: 80px; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+}
+.menu ul li{
+    float: left;
+    height:80px;
+}
+.menu ul li a{
+    padding-left: 17px;
+    font-size: 14px;
+    color: #5a5a58;
+    height: 100%;
+    line-height: 80px;
+    
+}
+.menu ul li a:hover{
+    color: #2683c1;
+}
+
+/*
+  =======================
+         Banner css  
+  ======================= 
+*/
+/*
+  =======================
+         About css  
+  ======================= 
+*/
+/*
+  =======================
+         Service css  
+  ======================= 
+*/
+/*
+  =======================
+         Portfolio css  
+  ======================= 
+*/
+/*
+  =======================
+         Team css  
+  ======================= 
+*/
+/*
+  =======================
+         Footer css  
+  ======================= 
+*/
